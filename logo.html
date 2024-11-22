@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Paused Logo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Centering the logo vertically and horizontally */
+            background-color: #f0f0f0; /* Light background for contrast */
+        }
+        svg {
+            width: 100%; /* Size of the logo */
+            height: 100%; /* Size of the logo */
+        }
+        .circle {
+            fill: white; /* Circle color */
+        }
+        .play-button {
+            fill: green; /* Triangle color */
+        }
+    </style>
+</head>
+<body>
+    <svg viewBox="0 0 100 100">
+        <!-- Circle Background -->
+        <circle cx="50" cy="50" r="45" class="circle" />
+        <!-- Play Triangle -->
+        <polygon points="40,30 40,70 70,50" class="play-button" />
+    </svg>
+</body>
+</html>
