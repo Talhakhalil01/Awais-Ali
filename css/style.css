@@ -1370,6 +1370,20 @@ ol {
   margin-top: -10px;
 }
 
+.row-about{
+  /* background-color: #057f97; */
+  /* align-items: flex-end;
+  justify-content: left;
+  text-align: right !important; */
+}
+
+.about-row-bcg{
+  /* background-color: #8d1717; */
+}
+.about-row-bcg-item{
+  width: 90% !important;
+}
+
 /*---------------------
   Testimonial
 -----------------------*/

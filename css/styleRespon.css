@@ -1,3 +1,7 @@
+.about-row-bcg-item{
+   background-color: blueviolet;
+}
+
 @media (max-width: 580px) {
     .hero-container{
         margin-left: 10%;
@@ -12,10 +16,10 @@
       max-width: 100%;
       /* background-color: blueviolet; */
     }
-    .item1,
-    .item2,
-    .item3{
-        display: none;
+  
+    .row-about{
+      margin-left: 2px;
+      /* background-color: blue; */
     }
   
     .download-CV{
@@ -123,11 +127,6 @@
     #about2{
         margin: 0px !important;
     }
-    .item1,
-    .item2,
-    .item3{
-        display: none;
-    }
   
     .download-CV{
         margin:0px;
@@ -199,7 +198,7 @@
         /* background-color: brown; */
       }
       .skills-item-2{
-        background-color: black;
+        /* background-color: black; */
       }
       .skills-item-2,
       .services-item-2{
@@ -209,7 +208,7 @@
         align-items: center;
         gap:20px;
         margin-bottom: 10px;
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
       }
       .skills-item-2 h4,
       .services-item-2 h4{
@@ -239,7 +238,6 @@
     }
     
     .footer-item{
-
         max-width: 100% !important;
         /* width:250px; */
         display: flex !important;
@@ -265,8 +263,13 @@
  
 }
 
+@media only screen and (min-width: 581px) and (max-width:990px) {
+  .item1,
+  .item2,
+  .item3{
+      display: none !important;
+  }
+      
 
-@media only screen and (min-width: 1200px) {
-  
-  
+
 }
